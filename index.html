@@ -6,7 +6,23 @@
   <meta name="theme-color" content="#071d54" />
   <meta name="description" content="Bia Oliveira fotografa retratos, eventos e celebrações com atenção às pessoas, aos detalhes e às histórias de cada encontro." />
   <title>Bia Oliveira — Retratos, Eventos & Histórias</title>
-  <link rel="icon" href="data:," />
+  <link rel="canonical" href="https://biafotografia.pedroestigarribia.chatgpt.site/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Bia Oliveira Fotografia" />
+  <meta property="og:title" content="Bia Oliveira — Retratos, Eventos & Histórias" />
+  <meta property="og:description" content="Retratos, eventos e histórias reais, fotografados com presença e sensibilidade." />
+  <meta property="og:url" content="https://biafotografia.pedroestigarribia.chatgpt.site/" />
+  <meta property="og:image" content="https://biafotografia.pedroestigarribia.chatgpt.site/assets/bia-compartilhamento.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1000" />
+  <meta property="og:image:height" content="1500" />
+  <meta property="og:image:alt" content="Bia Oliveira sorrindo com sua câmera diante de um fundo azul" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Bia Oliveira — Retratos, Eventos & Histórias" />
+  <meta name="twitter:description" content="Retratos, eventos e histórias reais, fotografados com presença e sensibilidade." />
+  <meta name="twitter:image" content="https://biafotografia.pedroestigarribia.chatgpt.site/assets/bia-compartilhamento.png" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="preload" href="assets/otimizadas/bia-camera-azul.webp" as="image" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -243,10 +259,13 @@
           <span>Conte sobre o projeto</span>
           <textarea name="mensagem" rows="4" required></textarea>
         </label>
-        <button type="submit" disabled>Copiar briefing <span aria-hidden="true">↗</span></button>
-        <p class="form-note" id="form-note" role="status">O briefing será copiado para você enviar pelo canal de contato da Bia.</p>
+        <div class="form-actions">
+          <button type="submit" disabled>Copiar briefing <span aria-hidden="true">↗</span></button>
+          <a class="whatsapp-button" id="briefing-whatsapp" href="https://wa.me/5521976551737" target="_blank" rel="noopener noreferrer">Preparar no WhatsApp <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="form-note" id="form-note" role="status">Preencha os dados para copiar o briefing ou preparar uma mensagem no WhatsApp. Você revisa antes de enviar.</p>
         <textarea class="briefing-fallback" id="briefing-fallback" rows="8" aria-label="Briefing para copiar manualmente" readonly hidden></textarea>
-        <noscript><p class="form-note">Para copiar o briefing, ative o JavaScript. Você também pode falar diretamente com a Bia pelo WhatsApp ou Instagram acima.</p></noscript>
+        <noscript><p class="form-note">Para copiar ou preparar a mensagem com os dados acima, ative o JavaScript. Sem ele, o link do WhatsApp abre uma conversa para você escrever manualmente.</p></noscript>
       </form>
     </section>
   </main>
